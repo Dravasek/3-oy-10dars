@@ -1,0 +1,36 @@
+.end-div{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    align-items: center;
+    
+    
+    
+}
+
+.end-nav{
+    background-color: #F3D7B7;
+}
+
+
+.end-list{
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.png-list{
+    display: flex;
+    gap: 30px;
+}
