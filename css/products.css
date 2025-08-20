@@ -25,6 +25,7 @@
 
 .main-bg{
     background-color: rgb(255, 241, 221);
+    padding-bottom: 100px;
 }
 .main-list{
     display: flex;

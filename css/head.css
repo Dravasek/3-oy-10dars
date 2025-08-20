@@ -76,6 +76,23 @@ a{
 .header-logo{
     position: absolute;
     top: 70px;
-    transform: rotate(-25deg);
     right: 595px;
+    animation-name: logo;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes logo{
+    0%{
+        transform: rotate(-120deg);
+
+    }
+    50%{
+        transform: rotate(-240deg);
+    }
+
+    100%{
+        transform: rotate(-120deg);
+    }
 }
