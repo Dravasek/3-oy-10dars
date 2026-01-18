@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding-top: 22px;
     padding-bottom: 130px;
+    table-layout: fixed;
 }
 
 .div-list{
@@ -73,26 +74,25 @@ a{
 }
 
 
+
 .header-logo{
     position: absolute;
     top: 70px;
     right: 595px;
     animation-name: logo;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+   
 }
 
 
 @keyframes logo{
     0%{
-        transform: rotate(-120deg);
+        transform: rotate(-0deg);
 
     }
-    50%{
-        transform: rotate(-240deg);
-    }
-
+    
     100%{
-        transform: rotate(-120deg);
+        transform: rotate(-360deg);
     }
 }

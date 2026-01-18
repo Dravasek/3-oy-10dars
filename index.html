@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="Home">
         <nav class="header-nav">
             <div class="container">
-            <div class="div-head">
+            <div class="div-head ">
                 <figure>
-                    <img src="./img/coffeeroasters.png" alt="">
+                    <a href="./index.html"><img  src="./img/coffeeroasters.png" alt=""></a>
                 </figure>
                 <div>
                     <ul class="div-list">
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT US</a></li>
-                        <li><a href="">Create your plan</a></li>
+             
+                        <li><a href="#Coffee">Choose your coffee</a></li>
+                        <li><a href="#about-us">ABOUT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -35,7 +36,7 @@
         </nav>
     </header>
     <main class="main-bg">
-        <section>
+        <section id="Coffee">
             <div class="container">
                 <div class="main-div">
             <h2 class="main-item">our collection</h2>
@@ -72,13 +73,13 @@
         </section>
     </main>
     <footer>
-        <nav class="end-nav">
+        <nav class="end-nav" id="about-us">
             <div class="container">
             <div class="end-div">
                 <img width="235px" height="24px" src="./img/coffeeroasters.png" alt="">
                 <div>
                     <ul class="end-list">
-                        <li><a href="">HOME</a></li>
+                        <li><a href="#Home">HOME</a></li>
                         <li><a href="">ABOUT US</a></li>
                         <li><a href="">Create your plan</a></li>
                     </ul>
